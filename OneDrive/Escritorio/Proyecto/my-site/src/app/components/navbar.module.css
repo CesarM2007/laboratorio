@@ -1,0 +1,16 @@
+/* Estilo de la barra de navegación */
+.navbar {
+
+    display: flex; /* Utiliza el modelo flexible de diseño */
+    background-color: black; /* Color de fondo */
+    height: 80px; /* Altura de la barra de navegación */
+    padding: 20px; /* Espaciado interno alrededor del contenido */
+    position: sticky; /* Posición pegajosa */
+    top: 0; /* Se mantendrá pegajosa en la parte superior */
+    z-index: 1000; /* Nivel de apilamiento en capas */
+
+    }
+
+.selected {
+    border-color: #daa520;
+}

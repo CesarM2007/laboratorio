@@ -5,7 +5,7 @@
   height: 100vh; /* Altura 100% de la ventana */
   font-weight: bold; /* Texto en negrita */
   color: #ffffff; /* Color del texto en blanco */
-  text-shadow: 15px 15px #222; /* Efecto de sombra en el texto */
+  text-shadow: 15px 15px gray; /* Efecto de sombra en el texto */
   font-size: 80px; /* Tamaño de fuente */
 }
 
@@ -17,4 +17,62 @@
 }
 .yellowText {
   color: goldenrod; /* Color dorado */
+}
+
+.infoSection {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+
+}
+
+.infoContainer {
+
+  color: #ffffff;
+  margin-left: 40px;
+
+}
+
+.infoContainer .title {
+
+  font-size: 60px;
+  font-weight: bold;
+
+}
+
+.infoContainer .list {
+
+  margin-top: 30px;
+
+}
+
+.infoContainer .list ul {
+
+  margin-left: 20px;
+
+}
+
+.infoContainer .list ul li {
+
+  margin-bottom: 20px;
+  list-style: disc;
+
+}
+
+.grayText {
+
+  color: gray;
+
+}
+
+.image {
+
+  max-width: 75%;
+  height: 50vh;
+  border-radius: 20%;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+
 }
